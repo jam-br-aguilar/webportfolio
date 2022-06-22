@@ -1,0 +1,23 @@
+/*RESET*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Overpass', sans-serif;
+}
+
+.bg-jag{
+	background-color: #1C5D99;
+}
+
+.txt-jag{
+	color: #1C5D99;
+}
+
+.bg-main-image{
+	background-image: url(./images/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 500px;
+	background-position: top center;
+
+}
