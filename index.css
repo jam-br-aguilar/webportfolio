@@ -9,15 +9,51 @@
 	background-color: #1C5D99;
 }
 
+
+.bg-jag2{
+	background-color: #86B9E9;
+}
+
+.bg-jag3{
+	background-color: #DDEBF9;
+}
+
+.bg-jag4{
+	background-color: #EEF5FC;
+}
+
+
 .txt-jag{
 	color: #1C5D99;
 }
 
-.bg-main-image{
+#bg-main-image{
 	background-image: url(./images/bg-main.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
-	min-height: 500px;
-	background-position: top center;
+	background-size: 300%;
+	min-height: 100vh;
+	background-position: center top;
 
+}
+
+
+.mt-pic{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.vh-50{
+	height: 50vh;
+}
+
+.padt20{
+	padding-top: 20vh;
+}
+
+.padt10{
+	padding-top: 10vh;
+}
+
+.padt5{
+	padding-top: 5vh;
 }

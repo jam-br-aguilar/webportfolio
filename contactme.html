@@ -5,7 +5,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
-	
+
 	<!-- CSS Dependencies -->
 
 	<link rel="stylesheet" type="text/css" href="./index.css">
@@ -18,7 +18,7 @@
 
 	<title>Contact Me</title>
 </head>
-<body>
+<body id="bg-main-image">
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-jag">
@@ -49,14 +49,57 @@
 	</nav>	
 <!-- End Navbar -->
 
-<!-- Header -->
-	
-<!-- End Header -->
+<!-- Contact Section -->
+	<div class="text-white padt10 mb-5">
+	<div class="container-fluid bg-jag pt-3 text-light col-12 col-md-8 col-xl-4 d-flex justify-content-center rounded">
+		<form class="col-12">
+			<div class="form-group">
+		 		 <label for="nameinput">Name</label>
+		 		 <input type="text" class="form-control" id="nameinput" placeholder="Your Name">
+			</div>	
+		  	<div class="form-group">
+		   		 <label for="emailinput">Email address</label>
+		   		 <input type="email" class="form-control" id="emailinput" placeholder="name@example.com">
+		 	</div>
+		 	<div class="form-group">
+		   		 <label for="contactinput">Contact</label>
+		   		 <input type="number" class="form-control" id="contactinput" placeholder="+63 900 000 0000">
+		 	</div>
+			<div class="form-group">
+			    <label for="message">Message</label>
+			    <textarea class="form-control" id="message" rows="7"></textarea>
+			</div>	
 
-<!-- Main Body -->
+			<button type="submit" class="bg-jag2 rounded px-2 py-1 mb-3" data-toggle="modal" data-target="#exampleModal">
+	  		Send Email
+			</button>
+		</form>
 
+	</div>
+	</div>
+<!-- End of Contact Section -->
 
-<!-- End Main -->
+<!-- Modal Section -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        Message Sent Successfully
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- End of Modal Section -->
+
 
 
 <!-- Footer -->

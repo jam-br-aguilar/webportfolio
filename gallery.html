@@ -18,7 +18,7 @@
 
 	<title>Gallery</title>
 </head>
-<body>
+<body class="bg-jag3" id="bg-main-image">
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-jag">
@@ -49,17 +49,111 @@
 	</nav>	
 <!-- End Navbar -->
 
-<!-- Header -->
-	<h2>James Benedict Aguilar</h2>
-	<h3>Web Developer</h3>
-<!-- End Header -->
-
 <!-- Main Body -->
+<div>
+	<h2 class="text-center mt-3">Future Projects</h2>
+</div>
 
+<div class="padt20 container-fluid m-0 d-block">
+	<div class="row">
+		<div class="p-3 col-12 col-md-3 d-flex justify-content-center">
+			<button type="button" class="btn" data-toggle="modal" data-target="#modalunibet">
+			<img class="img-fluid rounded" width="100" src="./images/logo-unibet.png">
+			</button>
+		</div>
+		<div class="p-3 col-12 col-md-3 d-flex justify-content-center">
+			<button type="button" class="btn" data-toggle="modal" data-target="#modallootbet">
+			<img class="img-fluid rounded" width="100" src="./images/logo-lootbet.png">
+			</button>
+		</div>
+		<div class="p-3 col-12 col-md-3 d-flex justify-content-center">
+			<button type="button" class="btn" data-toggle="modal" data-target="#modalbet365">
+			<img class="img-fluid rounded" width="100" src="./images/logo-bet365.png">
+			</button>
+		</div>
+		<div class="p-3 col-12 col-md-3 d-flex justify-content-center">
+			<button type="button" class="btn" data-toggle="modal" data-target="#modalatptour">
+			<img class="img-fluid rounded" width="100" src="./images/logo-atptour.png">
+			</button>
+		</div>
+
+	</div>
+</div>
 
 <!-- End Main -->
 
+<!-- Modal Section -->
 
+	<!-- Unibet -->
+		<div class="modal fade" id="modalunibet" tabindex="-1" aria-labelledby="modalunibet" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="modalunibet">Unibet Website</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-fluid" src="./images/unibet.png">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	<!-- Lootbet -->
+		<div class="modal fade" id="modallootbet" tabindex="-1" aria-labelledby="modallootbet" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="modallootbet">Lootbet Website</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-fluid" src="./images/lootbet.png">
+		      </div>
+		    </div>
+		  </div>
+		</div> 
+
+	<!-- Atptour -->
+		<div class="modal fade" id="modalatptour" tabindex="-1" aria-labelledby="modalatptour" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="modalatptour">ATP Tour Website</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-fluid" src="./images/unibet.png">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	<!-- Bet365 -->
+		<div class="modal fade" id="modalbet365" tabindex="-1" aria-labelledby="modalbet365" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="modalbet365">Bet365 Website</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-fluid" src="./images/bet365.png">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+<!-- End Modal Section -->
 <!-- Footer -->
 <footer class="bg-jag fixed-bottom text-light text-center p-1">
 	<span>&copy; 2022. All Rights Reserved</span>
